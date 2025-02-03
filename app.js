@@ -37,4 +37,5 @@ function reiniciarJuego() {
     nombres = [];
     actualizarLista();
     document.getElementById('resultado').textContent = "";
+    document.getElementById('nombre').value = "";
 }
